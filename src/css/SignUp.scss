@@ -1,0 +1,115 @@
+// Form Container
+//variable
+$text-color:#434db8;
+.main-container {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0.2em;
+
+    .inner-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .carousal-container {
+        flex-basis: 50%;
+        height: 100vh;
+        border: 2px solid rgba(255, 255, 255, .5);
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+
+    }
+
+    //Signup Container
+    .signup-container {
+        flex-basis: 50%;
+
+        .signup-main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            #login-text{
+                position: absolute;
+                top: 22%;
+                left: 70%;    
+                }
+
+            .signup {
+                color:$text-color;
+                position: absolute;
+                font-size:2.3em;
+                font-weight: 600;
+                top: 15%;
+                left: 70%;
+            }
+            .form-inner-container {
+                
+                display: flex;
+                flex-direction: column;
+                gap: 1.5em;
+            
+                .inline-container {
+                    display: flex;
+                    gap: 1.5em;
+                }
+
+            }
+
+            .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+                font-size: .9em;
+                top: -0.4em;
+            }
+
+            #text-line {
+                font: inherit;
+                letter-spacing: inherit;
+                color: currentColor;
+                padding: 4px 0 5px;
+                border: 0;
+                box-sizing: content-box;
+                background: none;
+                height: 1.4375em;
+                margin: 0;
+                -webkit-tap-highlight-color: transparent;
+                display: block;
+                width: 29em;
+                padding: 8px 12px;
+            }
+
+            #text {
+                font: inherit;
+                letter-spacing: inherit;
+                color: currentColor;
+                padding: 4px 0 5px;
+                border: 0;
+                box-sizing: content-box;
+                background: none;
+                height: 1.4375em;
+                margin: 0;
+                -webkit-tap-highlight-color: transparent;
+                display: block;
+                width: 13em;
+                padding: 8px 12px;
+            }
+
+            .signup-btn {
+                width: 50%;
+
+            }
+
+            input[type=date] {
+                &:required:invalid {
+                    &::-webkit-datetime-edit {
+                        color: transparent
+                    }
+                }
+            }
+        }
+    }
+    .signup-link
+    {
+        margin-left: 23%;
+        margin-top:7%;
+    }
+}

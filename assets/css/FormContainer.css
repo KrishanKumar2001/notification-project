@@ -1,0 +1,16 @@
+.main-container {
+  border: 1px solid;
+  height: 100vh;
+}
+.main-container .inner-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-container .carousal-container {
+  flex-basis: 50%;
+  border: 1px solid green;
+  height: 100vh;
+}
+.main-container .signup-container {
+  flex-basis: 50%;
+}/*# sourceMappingURL=FormContainer.css.map */

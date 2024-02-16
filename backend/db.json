@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "0751",
+      "firstName": "Krishan",
+      "lastName": "Kumar",
+      "dateOfBirth": "2024-02-03",
+      "email": "krishanknmc00012@gmail.com",
+      "password": "12345bhb",
+      "domain": "developer",
+      "imageUrl": "\"jjj\"",
+      "like": false,
+      "comment": []
+    },
+    {
+      "id": "3bad",
+      "firstName": "ankit",
+      "lastName": "singh",
+      "dateOfBirth": "2024-02-07",
+      "email": "ankit@gmail.com",
+      "password": "12345",
+      "domain": "developer",
+      "imageUrl": "\"jjj\"",
+      "like": false,
+      "comment": []
+    },
+    {
+      "id": "a995",
+      "firstName": "ankit",
+      "lastName": "singh",
+      "dateOfBirth": "2024-02-07",
+      "email": "abhi@gmail.com",
+      "password": "abhi",
+      "domain": "developer",
+      "imageUrl": "\"jjj\"",
+      "like": false,
+      "comment": []
+    }
+  ]
+}

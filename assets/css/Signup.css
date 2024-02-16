@@ -1,0 +1,19 @@
+.signup-main-container {
+  position: relative;
+}
+.signup-main-container .signup-main-container {
+  border: 1px solid blue;
+}
+.signup-main-container h2 {
+  font-weight: 500;
+  color: green;
+  position: absolute;
+  margin-left: 40%;
+}
+.signup-main-container form {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 100%;
+  border: 1px solid yellow;
+}/*# sourceMappingURL=Signup.css.map */
